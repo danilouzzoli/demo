@@ -11,6 +11,8 @@ public class MessageController {
   public String displayMessage(Model model) {
 
     model.addAttribute("message", "Hello, World!");
+    
+    System.out.println( "messaggio" );
     return "messageView";
   }
 
